@@ -4,7 +4,8 @@
   "description": "projet 3 fait par Maxime",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:.assets/css/style.css"
+    "sass": "sass --watch ./sass/main.scss:./assets/css/style.css",
+    "sass-compressed": "sass --watch ./sass/main.scss:./assets/css/style.min.css --style compressed"
   },
   "repository": {
     "type": "git",
